@@ -8,6 +8,14 @@
 
 
 #additional instructions: instead of setting our variable to 10, what if we asked the user for the variable and used that value in our comparisons?
-def main():
 
-main()
+Pat = 10
+if Pat > 12:
+    print("10 is greater than 12")
+elif Pat > 11:
+    print("10 is greater than 11")
+elif Pat == 10:
+    print("10 is equal to 10")
+else:
+    print("10is less than 10")
+
